@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Vera Rilossi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <h1 id="logo"><a href="index.html">Vera<br>Rilossi</a></h1>
+		<div id="mobilenav"><a href="#">&plus;</a></div>
+		<nav>
+			<ul>
+				<li><a class="active" href="index.html">home</a></li>
+				<li><a href="work.html">work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col c50 hero">
+				<img class="suzanne" src="assets/img/suzanne2.png">
+			</div>
+			<div class="col c50">
+				<h2 class="mobile">Hello! <br><br> I'm an italian designer and programmer. </h2>
+                <img class="mobile" src="assets/img/suzanne2.png">
+				<p class="ipad"><br></p>
+
+			</div> 
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>
