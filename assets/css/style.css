@@ -1,9 +1,76 @@
 *{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
 }
+
+h1.hello{
+    font-size: 70px;
+    font-weight:300;
+}
+
+/*-----ANIMATIONS-----*/
+
+.hello.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.mobile.fade-in{
+    opacity: 1;
+	animation-name: fadeInOpacity2;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity2 {
+	0% {
+		opacity: 0;
+	}
+    40%{
+        opacity: 0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
+
+h3.fade-in{
+    opacity: 1;
+	animation-name: fadeInOpacity3;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity3 {
+	0% {
+		opacity: 0;
+	}
+    96%{
+        opacity: 0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
+
+/*-----END OF ANIMATIONS-----*/
 
 h2{
 	font-size:50px;
@@ -12,18 +79,6 @@ h2{
 
 h2.mobile {
     border-bottom: 2px solid #FCDF00;
-}
-h4{
-    color: #6F6E6E;
-}
-
-h5{
-    color: #6F6E6E
-}
-
-.title h2, h3 {
-    border-bottom: 2px solid #FCDF00;
-    text-decoration: none;
 }
 
 a{
@@ -46,13 +101,15 @@ img.suzanne{
 img.mobile{
     display: none;
 }
+
 /*
 div{
 	background:rgba(200, 200, 200, .5);
 }
 */
 
-/*nav*/
+/*NAV*/
+
 header{
 	position:relative;
 }
@@ -60,9 +117,11 @@ header{
 #logo{
 	padding:10px;
 	font-weight:normal;
-	text-transform: uppercase;
     border-left: 2px solid #FCDF00;
-    
+}
+
+h1#logo a{
+    font-family: 'Nunito', sans-serif;
 }
 
 #mobilenav{
@@ -72,7 +131,7 @@ header{
 nav{
 	position:absolute;
 	top:17px;
-	right: 40%;
+	right: 45%;
 }
 
 nav ul{
@@ -100,11 +159,10 @@ nav a:hover{
 }
 
 
-
 /*columns*/
 
 .container, header{
-	max-width:1080px;
+	max-width:1580px;
 	margin:0 auto;
 }
 
@@ -119,59 +177,181 @@ nav a:hover{
 	padding:30px;
 }
 
-.c75{
-	width:75%;
-}
-
 .c50{
 	width:50%;
 }
 
-.c25{
-	width:25%;
-    position: relative;
-}
 
-
-/*brand*/
+/*BRAND*/
 .hero{
 	margin: 0 auto;
 }
 
-@media screen and (max-width:1024px){
-    .ipad {
-        display: none;
-    }
+/*GALLERY*/
+
+#gallery{
+    background:#fff;
+	margin-bottom: 600px;
+	position:relative;
 }
 
 
+.gallerycontainer{
+	max-width:76%;
+    padding-top: 20px;
+}
+
+.col4{
+	width:25%;
+	padding:5px;
+	height:80vh;
+}
+
+.col2{
+	width:50%;
+	padding:5px;
+	height:80vh;
+}
+
+#pic1{
+	background:url(../img/drake400.gif);
+    background-size: cover;
+    background-position: center center;
+	height:100%;
+   
+    
+/*	transform:perspective(1000px) rotateY(10deg) ;*/
+}
+
+/*
+#pic2{
+	background:url(../img/bush.gif);
+	background-size: cover;
+	background-position:center top;
+	height:50%;
+}
+
+#pic3{
+	background:url(../img/bomb.gif);
+	background-size: cover;
+	background-position:center top;
+	height:50%;
+}
+*/
+
+#pic4{
+	background:url(../img/cardi400.gif);
+	background-size: cover;
+	background-position:center center;
+	height:100%;
+/*		transform:perspective(1000px) rotateY(-10deg) ;*/
+}
+
+#pic5{
+	background:url(../img/bush1.gif);
+	background-size: cover;
+	background-position:center center;
+	height:100%;
+}
+
+#pic6{
+	background:url(../img/bomb1.gif);
+	background-size: cover;
+	background-position:center center;
+	height:100%;
+}
+/*
+#pic7{
+	background:url(../img/jelly.gif);
+	background-size: cover;
+	background-position:center top;
+	height:50%;
+}
+*/
+#pic8{
+	background:url(../img/rotten.gif);
+	background-size: cover;
+	background-position:center top;
+	height:100%;
+}
+#pic9{
+	background:url(../img/bush.gif);
+	background-size: cover;
+	background-position:center top;
+	height:50%;
+}
+#pic10{
+	background:url(../img/bomb1.gif);
+	background-size: cover;
+	background-position:center top;
+	height:50%;
+}
+#pic11{
+	background:url(../img/salva400.jpg);
+	background-size: cover;
+	background-position:center top;
+	height:100%;
+}
+#pic12{
+	background:url(../img/monica400.jpg);
+	background-size: cover;
+	background-position:center top;
+	height:100%;
+}
 
 
-@media screen and (max-width:768px){
+@keyframes zoom{
+	0%{
+		transform:scale(1, 1);
+	}
+	100%{
+		transform:scale(1.25, 1.25);
+	}
+}
+
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover, #pic6:hover, #pic7:hover, #pic8:hover, #pic9:hover, #pic10:hover, #pic11:hover, #pic12:hover{
+	animation:0.5s zoom ease-out 1;
+		transform:scale(1.25, 1.25);
+}
+
+
+/*MOBILE RESPONSIVE*/
+
+
+@media screen and (max-width:1024px){
     
     .container{
         padding-top: 0px;
     }
     
+    .gallerycontainer{
+	max-width:100%;
+    padding-top: 20px;
+    }
+
+    
 	.col{
 		float:none;
 		padding:20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
 	}
-	.c50, .c25{
+    
+	.c50, .col4, .col2{
 		width:100%;
 	}
-	h2{
-		color:black;
-        font-weight: 600;
-	}
-	
-    h2.mobile, h4.mobile{
-        display: none;
+    
+    h1.hello{
+    font-size: 40px;
+    font-weight:200;
+}
+    	
+    h2{
+        font-size: 28px;
     }
     
-    
-    .title h2, h3{
-        text-transform: uppercase;
+    h3{ 
+        font-size: 14px;
     }
     
 	nav{
@@ -213,18 +393,13 @@ nav a:hover{
     img.suzanne{
         display: none;
     }
-	
-    .ipad{
-        display: block;
-    }
+    
+    #gallery{
+    background:#fff;
+	margin-bottom: 50px;
+	position:relative;
 }
 
-.cool {
-    height: 86vh;
 }
 
-.collage { position:relative;
-            padding-top:20px; }
 
-.imgA1 { position:absolute; padding-top: 20px; top: 0px; left: 0px; z-index: 1; } 
-.imgB1 { position:absolute; top: 250px; left: 200px; z-index: 3; } 
