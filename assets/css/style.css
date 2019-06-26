@@ -101,7 +101,8 @@ h4 a:hover{
 }
 
 p a{
-    text-transform: uppercase;
+    color: #0f3c67;
+    border-bottom: 1px solid #0f3c67;
 }
 
 p a:hover{
@@ -199,10 +200,6 @@ nav a:hover{
 	padding:30px;
 }
 
-.c25{
-    width: 25%;
-}
-
 .c50{
 	width:50%;
 }
@@ -218,16 +215,13 @@ div.col.c50.mobile{
     display: none;
 }
 
-.c75{
-    width: 75%;
-}
-
 .title {
     padding-top: 20px;
 }
 
 
 /*BRAND*/
+
 .hero{
 	margin: 0 auto;
 }
@@ -247,7 +241,7 @@ div.col.c50.mobile{
 
 img:hover{
 	animation:0.5s zoom ease-out 1;
-		transform:scale(1.25, 1.25);
+    transform:scale(1.25, 1.25);
 }
 
 
@@ -288,13 +282,6 @@ img:hover{
     font-weight:200;
     }
     
-    h1#logo {
-    
-    }
-    
-    h1#mobilelogo {
-        display:block;
-    }
     	
     h2{
         font-size: 28px;
@@ -342,6 +329,20 @@ img:hover{
     img.vera{
         display: none;
     }
+    
+@keyframes zoom{
+	0%{
+		
+	}
+	100%{
+		
+	}
+}
+
+img:hover{
+	animation: none;
+    transform: none;
+}
     
 }
 
