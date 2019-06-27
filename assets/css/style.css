@@ -113,6 +113,10 @@ img{
 	max-width: 100%;
 }
 
+img#resume{
+    width: 500px;
+}
+
 img#pc{
     width: 420px;
 }
@@ -213,6 +217,10 @@ div.col.c50.left {
 
 div.col.c50.mobile{
     display: none;
+}
+
+.center {
+    text-align: center;
 }
 
 .title {

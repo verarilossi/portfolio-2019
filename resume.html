@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Vera Rilossi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Nunito|Rubik:300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <h1 id="logo"><a href="index.html">Vera <br>Rilossi</a></h1>
+		<div id="mobilenav"><a href="#">&plus;</a></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="work.html">work</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+        <div class="center">
+		      <img id="resume" src="assets/img/Resume_2019.png">
+        </div>
+	</div>
+    
+    <footer>
+        <p><a href="index.html">Vera Rilossi</a> | <a href="resume.html">Resume</a> &copy; 2019. All rights reserved. </p>
+    </footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>
