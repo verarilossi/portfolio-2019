@@ -131,7 +131,7 @@ div{
 }
 */
 
-/*NAV*/
+/*NAV and LOGO*/
 
 header{
 	position:relative;
@@ -144,7 +144,7 @@ header{
 }
 
 h1#logo a{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Prata', serif;
 }
 
 h1#mobilelogo a{
