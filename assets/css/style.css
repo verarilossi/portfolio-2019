@@ -1,13 +1,23 @@
 *{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
 }
 
+p{font-weight: bold;}
+
 h1.hello{
-    font-size: 70px;
-    font-weight:300;
+    font-size: 40px;
+}
+
+h1.proj{
+    font-weight: bold;
+}
+h2.mobile.fade-in {
+    font-family: 'Prata', serif;
+    font-size: 60px;
+    
 }
 
 /*-----ANIMATIONS-----*/
@@ -29,6 +39,7 @@ h1.hello{
 		opacity: 1;
 	}
 }
+
 
 .mobile.fade-in{
     opacity: 1;
@@ -109,6 +120,10 @@ p a:hover{
     color: #FCDF00;
 }
 
+p.proj {
+    text-align: left;
+}
+
 img{
 	max-width: 100%;
 }
@@ -172,6 +187,7 @@ nav li{
 li a.active {
   border-bottom: 2px solid #FCDF00;
   color: black;
+  font-weight: bold; 
 }
 
 nav a{
@@ -219,6 +235,24 @@ div.col.c50.mobile{
     display: none;
 }
 
+.colc {
+    float:none;
+    padding: 30px;
+}
+
+.c100{
+    width: 100%;
+}
+
+div.colc.c100 {
+    text-align: center;
+}
+
+div.colc.c100.cent{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
 .center {
     text-align: center;
 }
@@ -247,7 +281,7 @@ div.col.c50.mobile{
 	}
 }
 
-img:hover{
+img.zoom:hover{
 	animation:0.5s zoom ease-out 1;
     transform:scale(1.25, 1.25);
 }
@@ -347,7 +381,7 @@ img:hover{
 	}
 }
 
-img:hover{
+img.zoom:hover{
 	animation: none;
     transform: none;
 }
