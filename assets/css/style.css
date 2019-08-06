@@ -111,6 +111,7 @@ h4 a:hover{
     color: #FCDF00;
 }
 
+di
 p a{
     color: #0f3c67;
     border-bottom: 1px solid #0f3c67;
@@ -122,6 +123,10 @@ p a:hover{
 
 p.proj {
     text-align: left;
+}
+
+p.50 {
+    max-width: 240px;
 }
 
 img{
@@ -229,6 +234,7 @@ div.col.c50.right {
 }
 div.col.c50.left {
     text-align: left;
+    max-width: 400px;
 }
 
 div.col.c50.mobile{
