@@ -20,6 +20,10 @@ h2.mobile.fade-in {
     
 }
 
+a#here{
+    border-bottom: 1px solid #FCDF00;
+}
+
 /*-----ANIMATIONS-----*/
 
 .hello.fade-in {
@@ -234,7 +238,6 @@ div.col.c50.right {
 }
 div.col.c50.left {
     text-align: left;
-    max-width: 400px;
 }
 
 div.col.c50.mobile{
@@ -321,6 +324,10 @@ img.zoom:hover{
     display: none;
     }
     
+    div.colc.c100{
+        display: none;
+    }
+    
     div.col.c50.mobile{
         display: block;
     }
@@ -393,6 +400,7 @@ img.zoom:hover{
 }
     
 }
+
 
 footer{
     padding-bottom: 5px;
