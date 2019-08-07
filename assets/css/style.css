@@ -1,11 +1,11 @@
 *{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
 }
 
-p{font-weight: bold;}
+p{font-weight: normal;}
 
 h1.hello{
     font-size: 40px;
@@ -13,10 +13,11 @@ h1.hello{
 
 h1.proj{
     font-weight: bold;
+    text-align: center;
 }
 h2.mobile.fade-in {
     font-family: 'Prata', serif;
-    font-size: 60px;
+    font-size: 50px;
     
 }
 
@@ -72,6 +73,7 @@ h3.fade-in{
 	animation-timing-function: ease-in;
 	animation-duration: 2s;
     padding-bottom: 20px;
+    font-weight: normal;
 }
 
 @keyframes fadeInOpacity3 {
@@ -115,7 +117,9 @@ h4 a:hover{
     color: #FCDF00;
 }
 
-di
+h4{ text-align: center;}
+
+
 p a{
     color: #0f3c67;
     border-bottom: 1px solid #0f3c67;
