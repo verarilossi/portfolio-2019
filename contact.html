@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Vera Rilossi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Nunito|Rubik:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <h1 id="logo"><a href="index.html">Vera <br>Rilossi</a></h1>
+		<div id="mobilenav"><a href="#">&plus;</a></div>
+		<nav>
+			<ul>
+				<li><a  href="index.html">home</a></li>
+				<li><a href="work.html">work</a></li>
+                <li><a class="active" href="contact.html">contact</a></li>
+                <li><a href="https://drive.google.com/file/d/0B-SAasVM-1UIMHNvMEhrNGlyYVQ4amh3S2twMTdGcC15ZWRN/view?usp=sharing" target="_blank">resume</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col c50 hero=">
+				
+			</div>
+			<div class="col c50">
+				<h2 class="mobile fade-in">Contact me</h2>
+                <h3 class="fade-in"><br>Let's get in touch. Send me an email!<br><br>verarilossi95@gmail.com</h3><br>
+                
+                <div class="button">
+                    <a href="work.html">home</a>
+                </div>
+     
+                
+			</div> 
+		</div>
+	</div>
+    
+    <footer>
+        <p><a href="index.html">Vera Rilossi</a> | &copy; 2019. All rights reserved. </p>
+    </footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>

@@ -25,6 +25,7 @@ a#here{
     border-bottom: 1px solid #FCDF00;
 }
 
+
 /*-----ANIMATIONS-----*/
 
 .hello.fade-in {
@@ -90,6 +91,9 @@ h3.fade-in{
 
 /*-----END OF ANIMATIONS-----*/
 
+
+/*-----GENERAL STYLE-----*/
+
 h2{
 	font-size:50px;
 	font-weight:normal;
@@ -150,6 +154,19 @@ img.mobile{
     display: none;
 }
 
+div.button{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 20px;
+}
+
+div.button a{
+    padding: 10px;
+    border: 2px solid #FCDF00;
+    text-align: center;
+    margin-right: 10px;
+}
 /*
 div{
 	background:rgba(200, 200, 200, .5);
@@ -163,6 +180,9 @@ header{
 }
 
 #logo{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 15px;
 	padding:10px;
 	font-weight:normal;
     border-left: 2px solid #FCDF00;
@@ -170,6 +190,7 @@ header{
 
 h1#logo a{
     font-family: 'Prata', serif;
+    font-size: 40px;
 }
 
 h1#mobilelogo a{
@@ -183,7 +204,8 @@ h1#mobilelogo a{
 nav{
 	position:absolute;
 	top:17px;
-	right: 45%;
+	right: 0%;
+    padding-right: 10%;
 }
 
 nav ul{
