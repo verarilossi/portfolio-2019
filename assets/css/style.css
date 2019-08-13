@@ -26,8 +26,8 @@ a#here{
 }
 
 a.contact{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #FCDF00;
+    padding: 8px;
+    border: 2px solid #FCDF00;
 
 }
 
@@ -162,19 +162,21 @@ img.mobile{
 div.button{
     display: inline-block;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 div.button a{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #FCDF00;
+    padding: 8px;
+    border: 2px solid #FCDF00;
     text-align: center;
 }
 
 div.button a:hover{
-    padding-bottom: 5px;
-    border-bottom: 2px solid #FCDF00;
+    padding: 8px;
+    border: 2px solid #FCDF00;
     text-align: center;
     color: #ccc;
+    margin-bottom: 20px;
 }
 /*
 div{
