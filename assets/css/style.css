@@ -25,7 +25,7 @@ a#here{
     border-bottom: 1px solid #FCDF00;
 }
 
-a.contact{
+a.button{
     padding: 8px;
     border: 2px solid #FCDF00;
 
@@ -159,24 +159,6 @@ img.mobile{
     display: none;
 }
 
-div.button{
-    display: inline-block;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-div.button a{
-    padding: 8px;
-    border: 2px solid #FCDF00;
-    text-align: center;
-}
-
-div.button a:hover{
-    padding: 8px;
-    border: 2px solid #FCDF00;
-    text-align: center;
-    color: #ccc;
-    margin-bottom: 20px;
 }
 /*
 div{
