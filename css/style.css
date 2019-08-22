@@ -5,7 +5,10 @@
 	padding:0;
 }
 
-p{font-weight: normal;}
+p{
+    font-weight: normal;
+    line-height: 1.58;
+}
 
 h1.hello{
     font-size: 40px;
@@ -23,6 +26,12 @@ h2.mobile.fade-in {
 
 a#here{
     border-bottom: 1px solid #FCDF00;
+}
+
+a.button{
+    padding: 8px;
+    border: 2px solid #FCDF00;
+
 }
 
 /*-----ANIMATIONS-----*/
@@ -74,6 +83,7 @@ h3.fade-in{
 	animation-duration: 2s;
     padding-bottom: 20px;
     font-weight: normal;
+    line-height: 1.58;
 }
 
 @keyframes fadeInOpacity3 {
@@ -90,6 +100,9 @@ h3.fade-in{
 
 /*-----END OF ANIMATIONS-----*/
 
+
+/*-----GENERAL STYLE-----*/
+
 h2{
 	font-size:50px;
 	font-weight:normal;
@@ -105,7 +118,7 @@ a{
 }
 
 a:hover{
-    color: #6F6E6E;
+    color: #ccc;
 }
 
 h4 a{
@@ -128,6 +141,7 @@ p a:hover{
 
 p.proj {
     text-align: left;
+    line-height: 1.58;
 }
 
 p.50 {
@@ -150,6 +164,7 @@ img.mobile{
     display: none;
 }
 
+}
 /*
 div{
 	background:rgba(200, 200, 200, .5);
@@ -163,6 +178,9 @@ header{
 }
 
 #logo{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 15px;
 	padding:10px;
 	font-weight:normal;
     border-left: 2px solid #FCDF00;
@@ -170,6 +188,7 @@ header{
 
 h1#logo a{
     font-family: 'Prata', serif;
+    font-size: 40px;
 }
 
 h1#mobilelogo a{
@@ -183,7 +202,9 @@ h1#mobilelogo a{
 nav{
 	position:absolute;
 	top:17px;
-	right: 45%;
+	right: 0%;
+    padding-right: 10%;
+    margin-left: 10%;
 }
 
 nav ul{
@@ -259,7 +280,7 @@ div.colc.c100 {
 }
 
 div.colc.c100.cent{
-    max-width: 860px;
+    max-width: 728px;
     margin: 0 auto;
 }
 
