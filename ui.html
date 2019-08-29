@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Vera Rilossi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Nunito|Rubik:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 id="logo"><a href="index.html">Vera<br>Rilossi</a></h1>
+		<div id="mobilenav"><a href="#">&plus;</a></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a class="active" href="work.html">work</a></li>
+                <li><a href="work">contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1mm-enU5J7vi-AMuFhO6GFkcH1NISa8t2/view?usp=sharing" target="_blank">resume</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="container">
+		
+            
+                <!-- LIST-->
+    
+        <div class="row">
+            <div class="colc c100">
+             <h1 class="proj">UI Design</h1>
+            </div>
+            <div class="col c50 mobile">
+             <h1 class="proj">UI Design</h1>
+            </div>
+            
+            <div class="colc c100">
+                <img src="assets/img/pasta1.jpg" width="860">
+            </div>
+            <div class="col c50 mobile">
+                  <img src="assets/img/pasta2.jpg" width="400px">
+            </div>
+            
+              <div class="colc c100">
+                <img src="assets/img/pasta2.jpg" width="860">
+            </div>
+            
+            <div class="col c50 mobile">
+                <img src="assets/img/pasta2.jpg" width="400px">
+            </div>
+            
+
+            
+        </div>
+        
+       
+        
+        
+    <footer>
+        <p><a href="index.html">Vera Rilossi</a> | &copy; 2019. All rights reserved. </p>
+    </footer>
+
+		               
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$('#mobilenav').click(function() {
+			$('nav').toggle();
+		});
+		$(window).resize(function() {
+			if (window.innerWidth > 575) {
+				$('nav').show();
+			};
+		});
+	</script>
+</body>
+</html>
