@@ -5,7 +5,10 @@
 	padding:0;
 }
 
-p{font-weight: normal;}
+p{
+    font-weight: normal;
+    line-height: 1.58;
+}
 
 h1.hello{
     font-size: 40px;
@@ -18,6 +21,7 @@ h1.proj{
 h2.mobile.fade-in {
     font-family: 'Prata', serif;
     font-size: 50px;
+    text-align: center;
     
 }
 
@@ -80,6 +84,22 @@ h3.fade-in{
 	animation-duration: 2s;
     padding-bottom: 20px;
     font-weight: normal;
+    line-height: 1.58;
+    
+}
+
+h3.fade-in.m{
+    opacity: 1;
+	animation-name: fadeInOpacity3;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+    padding-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.58;
+    max-width: 500px;
+    margin: 0 auto;
+    display: none;
 }
 
 @keyframes fadeInOpacity3 {
@@ -137,6 +157,7 @@ p a:hover{
 
 p.proj {
     text-align: left;
+    line-height: 1.58;
 }
 
 p.50 {
@@ -160,11 +181,7 @@ img.mobile{
 }
 
 }
-/*
-div{
-	background:rgba(200, 200, 200, .5);
-}
-*/
+
 
 /*NAV and LOGO*/
 
@@ -199,6 +216,7 @@ nav{
 	top:17px;
 	right: 0%;
     padding-right: 10%;
+    margin-left: 10%;
 }
 
 nav ul{
@@ -274,7 +292,7 @@ div.colc.c100 {
 }
 
 div.colc.c100.cent{
-    max-width: 860px;
+    max-width: 728px;
     margin: 0 auto;
 }
 
@@ -315,7 +333,7 @@ img.zoom:hover{
 /*MOBILE RESPONSIVE*/
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1000px){
     
     .container{
         padding-top: 0px;
@@ -346,6 +364,13 @@ img.zoom:hover{
     
     div.col.c50.mobile{
         display: block;
+        text-align: center;
+    }
+    
+    div.col.c50.para{
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
     }
     
     h1.hello{
@@ -360,6 +385,7 @@ img.zoom:hover{
     
     h3{ 
         font-size: 14px;
+
     }
     
 	nav{
@@ -399,6 +425,14 @@ img.zoom:hover{
     
     img.vera{
         display: none;
+    }
+    
+    h3.fade-in{
+        display: none;
+    }
+    
+    h3.fade-in.m{
+        display: block;
     }
     
 @keyframes zoom{
