@@ -25,6 +25,12 @@ h2.mobile.fade-in {
     
 }
 
+h2.mobile.fade-in.main{
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    text-align: left;
+}
+
 a#here{
     border-bottom: 1px solid #FCDF00;
 }
@@ -434,6 +440,12 @@ img.zoom:hover{
     h3.fade-in.m{
         display: block;
     }
+    
+    h2.mobile.fade-in.main{
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    text-align: center;
+}
     
 @keyframes zoom{
 	0%{
